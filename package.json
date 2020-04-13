@@ -1,0 +1,26 @@
+{
+  "name": "scrum-your-life",
+  "version": "0.0.0",
+  "private": true,
+  "browser": "./dist/main.js",
+  "scripts": {
+    "start": "webpack --config webpack.dev.js --watch"
+  },
+  "dependencies": {
+    "i18next": "^19.4.1",
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "@alienfast/i18next-loader": "^1.1.4",
+    "autoprefixer": "^9.7.6",
+    "css-loader": "^3.5.2",
+    "extract-loader": "^5.0.1",
+    "file-loader": "^6.0.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.1"
+  }
+}
