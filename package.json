@@ -1,6 +1,6 @@
 {
   "name": "scrum-your-life",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "browser": "./dist/main.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "i18next": "^19.4.1",
     "lit-element": "^2.3.1",
     "lit-html": "^1.2.1",
+    "localforage": "^1.7.3",
     "redux": "^4.0.5",
     "reselect": "^4.0.0"
   },
@@ -20,6 +21,7 @@
     "extract-loader": "^5.0.1",
     "file-loader": "^6.0.0",
     "postcss-loader": "^3.0.0",
+    "redux-devtools-extension": "^2.13.8",
     "sass-loader": "^8.0.2",
     "webpack": "^4.42.1"
   }
